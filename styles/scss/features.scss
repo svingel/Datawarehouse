@@ -1,0 +1,80 @@
+
+@media screen and (max-width: 600px) {
+    .features-section {
+        margin: 0 auto;
+        width: 96vw;
+        height: 80vh;
+    }
+
+    .features-section__subtitle {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 601px) {
+    .features-section {
+        margin: 0 auto;
+        width: 80vw;
+        height: 80vh;
+    }
+
+    .features-section__subtitle {
+        width: 60%;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    .features-section {
+        margin: 0 auto;
+        width: 60vw;
+        height: 80vh;
+    }
+}
+
+.features-section__title {
+    color: #212353;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.features-section__subtitle {
+    //poprawic cala czcionke bo Avenir hehe
+    font-family: Avenir, Metropolis, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.cards-grid__title {
+    font-family: Avenir;
+    font-size: medium;
+}
+
+.cards-grid__description {
+
+}
+
+.cards-grid__link {
+
+}
+
+.card-grid {
+    width: 70%;
+}
+
+.cards-grid__container {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../images/Rectangle1.svg);
+    background-repeat: no-repeat;
+}
