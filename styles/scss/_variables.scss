@@ -1,0 +1,40 @@
+@mixin card-title-font {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+    color: #212353;
+}
+
+@mixin card-description-font {
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+@mixin card-link-font {
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 160%;
+    letter-spacing: 0.005px;
+    color: #212353;;
+}
+
+@mixin section-title-font {
+    font-family: Helvetica, sans-serif;
+    font-size: 40;
+    font-weight: 700;
+    line-height: 130%;
+    color: #212353;
+}
+
+@mixin section-lead-font {
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    color: #4B5D68;
+}
